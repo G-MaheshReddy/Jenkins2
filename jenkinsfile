@@ -9,8 +9,8 @@ pipeline {
         stage('Build and Run') {
             steps {
                 echo 'Compiling and running Java program...'
-                sh 'javac HelloWorld.java'
-                sh 'java HelloWorld'
+                sh 'javac Test.java'
+                sh 'java Test'
             }
         }
     }
